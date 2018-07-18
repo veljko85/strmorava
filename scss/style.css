@@ -48,19 +48,19 @@
         body .navBar .nav p {
           color: #000;
           transform: skew(-150deg); }
-    body .temlates {
+    body .templates {
       width: 81vw;
       margin: 6vh auto 0 auto; }
-      body .temlates .item {
+      body .templates .item {
         width: 14.8vw;
         height: 18vw;
         margin: 1vh 0 0 1vw;
         float: left;
         border-left: 0.1vh solid #000; }
-        body .temlates .item img {
+        body .templates .item img {
           width: 100%;
           border-bottom: 0.1vh solid #000; }
-        body .temlates .item .descr {
+        body .templates .item .descr {
           width: 13vw;
           margin: 0 0 0 1vw;
           transform: skew(150deg);
@@ -68,10 +68,10 @@
           border-top: none;
           border-left: none;
           height: 3.2vw; }
-          body .temlates .item .descr p {
+          body .templates .item .descr p {
             transform: skew(-150deg);
             font-size: 2vh; }
-          body .temlates .item .descr h5 {
+          body .templates .item .descr h5 {
             transform: skew(-150deg);
             font-size: 3vh;
             font-weight: 900;
