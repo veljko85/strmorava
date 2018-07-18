@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$(".templates").attr("templates/home.html");
+	$(".templates").load("templates/home.html");
 	
 	$(".navBar a").click( function() {
 		
