@@ -1,0 +1,121 @@
+@media screen and (min-width: 1025px) and (orientation: landscape) and (min-aspect-ratio: 16/9) {
+
+	body {
+		width: 100vw;
+		height: 100vh;
+		background-color: #fff;
+	    font-family:'Teko', sans-serif;;
+	    overflow-x: hidden;  
+
+	    	a {
+				text-decoration: none;
+			}
+
+			nav	{
+				margin: auto;
+				width:	81vw;
+				height:	15vh;
+				border-bottom:	0.5vh solid lightgray;
+				background: linear-gradient(to right, white,lightgray,white);
+					
+					img	{
+						float: left;
+						width: 19vh;
+						margin-left: 5vw;
+					}
+
+					.mainTitle	{
+						font-family: 'Iceberg', cursive;
+						float: right;
+						font-size: 10vh;
+						margin: 2.5vh 5vw 0 0;
+						font-weight: 700;
+						color: #000;
+					}
+
+					.borderBottom  {
+						width: 65vw;
+						border-bottom: 0.5vh solid gray;
+						float: right;
+						margin-top: 3vh;
+					}
+					
+				}
+		    .navBar  {
+				float: right;
+				height: 4vh;
+				margin-right: 10vw;
+				background: #fff;
+				transform: skew(150deg);
+				border-left: 0.1vh solid #000;
+				border-bottom: 0.1vh solid #000;
+					
+					.nav:hover	{
+								background: linear-gradient(to right, white,lightgray,white);
+					}
+					
+					.nav  {
+						
+						font-size: 3vh;
+						float: right;
+						padding: 0.5vh 1vw;
+					
+					p  {
+						   color: #000;
+						   transform: skew(-150deg);
+						}
+					}
+			}
+
+			.main  {
+					width: 81vw;
+					margin: 6vh auto 0 auto;
+					
+					.item	{
+							width: 14.8vw;
+							height: 18vw;
+							margin: 1vh 0 0 1vw;
+							float: left;
+							border-left: 0.1vh solid #000;
+
+						img	{
+							width: 100%;
+							border-bottom: 0.1vh solid #000;
+						}
+
+						.descr	{
+								width: 13vw;
+								margin: 0 0 0 1vw;
+								transform: skew(150deg);
+								border: 0.1vh solid #000;
+								border-top: none;
+								border-left: none;
+								height:3.2vw;
+
+								
+
+								p  {
+									transform: skew(-150deg);
+									font-size: 2vh;
+								}
+
+								h5	{
+									transform: skew(-150deg);
+									font-size: 3vh;
+									font-weight: 900;
+									float: right;
+									margin-right: 1vw;
+								}
+						}
+					}
+					
+			}
+
+
+
+
+
+
+		
+	}		
+}

@@ -1,0 +1,79 @@
+@media screen and (min-width: 1025px) and (orientation: landscape) and (min-aspect-ratio: 16 / 9) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    font-family: 'Teko', sans-serif;
+    overflow-x: hidden; }
+    body a {
+      text-decoration: none; }
+    body nav {
+      margin: auto;
+      width: 81vw;
+      height: 15vh;
+      border-bottom: 0.5vh solid lightgray;
+      background: linear-gradient(to right, white, lightgray, white); }
+      body nav img {
+        float: left;
+        width: 19vh;
+        margin-left: 5vw; }
+      body nav .mainTitle {
+        font-family: 'Iceberg', cursive;
+        float: right;
+        font-size: 10vh;
+        margin: 2.5vh 5vw 0 0;
+        font-weight: 700;
+        color: #000; }
+      body nav .borderBottom {
+        width: 65vw;
+        border-bottom: 0.5vh solid gray;
+        float: right;
+        margin-top: 3vh; }
+    body .navBar {
+      float: right;
+      height: 4vh;
+      margin-right: 10vw;
+      background: #fff;
+      transform: skew(150deg);
+      border-left: 0.1vh solid #000;
+      border-bottom: 0.1vh solid #000; }
+      body .navBar .nav:hover {
+        background: linear-gradient(to right, white, lightgray, white); }
+      body .navBar .nav {
+        font-size: 3vh;
+        float: right;
+        padding: 0.5vh 1vw; }
+        body .navBar .nav p {
+          color: #000;
+          transform: skew(-150deg); }
+    body .main {
+      width: 81vw;
+      margin: 6vh auto 0 auto; }
+      body .main .item {
+        width: 14.8vw;
+        height: 18vw;
+        margin: 1vh 0 0 1vw;
+        float: left;
+        border-left: 0.1vh solid #000; }
+        body .main .item img {
+          width: 100%;
+          border-bottom: 0.1vh solid #000; }
+        body .main .item .descr {
+          width: 13vw;
+          margin: 0 0 0 1vw;
+          transform: skew(150deg);
+          border: 0.1vh solid #000;
+          border-top: none;
+          border-left: none;
+          height: 3.2vw; }
+          body .main .item .descr p {
+            transform: skew(-150deg);
+            font-size: 2vh; }
+          body .main .item .descr h5 {
+            transform: skew(-150deg);
+            font-size: 3vh;
+            font-weight: 900;
+            float: right;
+            margin-right: 1vw; } }
+
+/*# sourceMappingURL=desktop.css.map */
